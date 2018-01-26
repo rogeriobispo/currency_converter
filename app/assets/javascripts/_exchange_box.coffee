@@ -1,6 +1,5 @@
 $(document).ready ->
-  $('form').submit ->
-    if $('form').attr('action') == '/exchange'
+  $('#quantity').on('input', ->
       $.ajax '/exchange',
           type: 'POST'
           dataType: 'json'
@@ -14,3 +13,5 @@ $(document).ready ->
           success: (data, text, jqXHR) ->
             $('#result').val(data.value)
         return false;
+  )
+
