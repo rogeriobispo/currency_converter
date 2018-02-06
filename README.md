@@ -7,7 +7,7 @@
 ## Requiriments
     * Ruby Version: 2.4.1
     * Rails 5.0.6
-    * PostGres 9.5README.md
+    * PostGres 9.5
 
 ## Instalation
     * git@github.com:rogeriobispo/currency_converter.git
