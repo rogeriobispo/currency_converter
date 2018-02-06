@@ -34,6 +34,6 @@
 
 ## App Link
 
-[Link to app](http://rogerexchangecurrency.herokuapp.com/)
+[Roger Currency Converter](http://rogerexchangecurrency.herokuapp.com/)
 
 
