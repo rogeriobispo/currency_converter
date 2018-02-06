@@ -2,7 +2,7 @@
 ## Requiriments
     * Ruby Version: 2.4.1
     * Rails 5.0.6
-    * PostGres 9.5
+    * PostGres 9.5README.md
 
 ## Instalation
     * git@github.com:rogeriobispo/currency_converter.git
@@ -28,5 +28,5 @@
     * rspec -fd
 
 ## App Link
-    * ![Link to app](http://rogerexchangecurrency.herokuapp.com/)
+    * [Link to app](http://rogerexchangecurrency.herokuapp.com/)
 
