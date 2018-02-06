@@ -1,8 +1,7 @@
 # README
 
 ## Motivation
-    To help people to converte currency if you are going to travel.
-    and need to know how much you are going to have on one country.
+    An easy currency converter
 
 ## Continuos Integration Status
 [ ![Codeship Status for rogeriobispo/currency_converter](https://app.codeship.com/projects/ab4eeda0-e3e8-0135-5b30-4235b83c2a89/status?branch=master)](https://app.codeship.com/projects/268684)
@@ -12,11 +11,17 @@
     * Rails 5.0.6
     * PostGres 9.5
 
-## Instalation
+## Setup
     * git@github.com:rogeriobispo/currency_converter.git
     * rails db:create
     * rails db:migrate
     * bundle install
+    * puma -C config/puma.rb
+
+## Docker Setup
+    * docker-compose build
+    * docker-compose run --rm website bin/setup
+    * docker-compose up
 
 ## Server up
     * puma -C config/puma.rb
@@ -32,7 +37,7 @@
     * rails db:create
     * rails db:migrate
 
-## Test Suite
+## How to run Test Suite
     * rspec -fd
 
 ## App Link
