@@ -28,5 +28,6 @@
     * rspec -fd
 
 ## App Link
-    * [Link to app](http://rogerexchangecurrency.herokuapp.com/)
+
+![Link to app](http://rogerexchangecurrency.herokuapp.com/)
 
