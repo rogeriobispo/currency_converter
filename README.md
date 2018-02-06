@@ -2,6 +2,7 @@
 
 ## Motivation
     An easy currency converter
+    [](https://raw.githubusercontent.com/rogeriobispo/currency_converter/8645a6e1666569ce70eb329c18d895ae73a113eb/public/currencyConverter.png)
 
 ## Continuos Integration Status
 [ ![Codeship Status for rogeriobispo/currency_converter](https://app.codeship.com/projects/ab4eeda0-e3e8-0135-5b30-4235b83c2a89/status?branch=master)](https://app.codeship.com/projects/268684)
