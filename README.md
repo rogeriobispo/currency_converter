@@ -1,24 +1,32 @@
 # README
+## Requiriments
+    * Ruby Version: 2.4.1
+    * Rails 5.0.6
+    * PostGres 9.5
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Instalation
+    * git@github.com:rogeriobispo/currency_converter.git
+    * rails db:create
+    * rails db:migrate
+    * bundle install
 
-Things you may want to cover:
+## Server up
+    * puma -C config/puma.rb
 
-* Ruby version
+## Optional
+    * docker
+    * docker-compose
 
-* System dependencies
+## Database creation
+    * rails db:create
 
-* Configuration
+## DataBase Initialization
+    * rails db:create
+    * rails db:migrate
 
-* Database creation
+## Test Suite
+    * rspec -fd
 
-* Database initialization
+## App Link
+    * ![Link to app](http://rogerexchangecurrency.herokuapp.com/)
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
