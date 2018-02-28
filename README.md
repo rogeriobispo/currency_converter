@@ -13,13 +13,14 @@
     * PostGres 9.5
 
 ## Setup
-    * git@github.com:rogeriobispo/currency_converter.git
+    * git clone git@github.com:rogeriobispo/currency_converter.git
     * rails db:create
     * rails db:migrate
     * bundle install
     * puma -C config/puma.rb
 
 ## Docker Setup
+    * git clone git@github.com:rogeriobispo/currency_converter.git
     * docker-compose build
     * docker-compose run --rm website bin/setup
     * docker-compose up
