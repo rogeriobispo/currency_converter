@@ -11,4 +11,13 @@ describe Currency do
     expect(value.is_a?(Numeric)).to eql(true)
     expect(value != 0).to eql(true)
   end
+
+  it 'exchange when fail' do
+    json = JSON.parse(File.read('./spec/fixtures/currency_list.json'))
+    currency, currency_destination = json['currency_list'].sample(2)
+    quantity = 'a'
+
+    value = Currency.exchange currency, currency_destination, quantity
+    expect(value).to eq('Conversion failed')
+  end
 end
