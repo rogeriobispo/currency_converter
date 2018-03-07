@@ -6,7 +6,7 @@
 
 ## badges
 
-[ ![Codeship Status for rogeriobispo/currency_converter](https://app.codeship.com/projects/ab4eeda0-e3e8-0135-5b30-4235b83c2a89/status?branch=master)](https://app.codeship.com/projects/268684) [![Maintainability](https://api.codeclimate.com/v1/badges/8e4ae7c586969d8a086b/maintainability)](https://codeclimate.com/github/rogeriobispo/currency_converter/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/8e4ae7c586969d8a086b/test_coverage)](https://codeclimate.com/github/rogeriobispo/currency_converter/test_coverage)
+[ ![Codeship Status for rogeriobispo/currency_converter](https://app.codeship.com/projects/ab4eeda0-e3e8-0135-5b30-4235b83c2a89/status?branch=master)](https://app.codeship.com/projects/268684) [![CodeClimate](https://api.codeclimate.com/v1/badges/8e4ae7c586969d8a086b/maintainability)](https://codeclimate.com/github/rogeriobispo/currency_converter/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/8e4ae7c586969d8a086b/test_coverage)](https://codeclimate.com/github/rogeriobispo/currency_converter/test_coverage)
 
 ## Requiriments
     * Ruby Version: 2.4.1
